@@ -11,7 +11,6 @@ public class Main {
 
     // CONFIGURACION DEL DRIVER
     WebDriver driver = new ChromeDriver();
-    //qadriver.get("https://www.google.com");
     driver.get("https://www.demoblaze.com/");
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
