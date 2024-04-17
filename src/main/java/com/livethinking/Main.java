@@ -56,10 +56,10 @@ public class Main {
     // PUNTOS DE CONTROL
     //Celulares
         if (!driver.findElement(By.xpath("//div[@class='card h-100']")).isDisplayed()) {
-            System.out.println("El elemento de celular se esta mostrando satisfactoriamente");
+            System.out.println("El elemento de celular HTC One M9 se esta mostrando satisfactoriamente");
         }
         else {
-            System.out.println("El elemento de celular se esta mostrando");
+            System.out.println("El elemento del valor del celular se esta mostrando correctamente");
         }
     
     // PUNTOS DE CONTROL
@@ -68,7 +68,7 @@ public class Main {
             System.out.println("El elemento de celular se esta mostrando satisfactoriamente");
         }
         else {
-            System.out.println("El elemento de macbookAir se esta mostrando");
+            System.out.println("El elemento del valor macbookAir se esta mostrando correctamente");
         }
     
     //Laptops macbookPro
@@ -76,23 +76,23 @@ public class Main {
             System.out.println("El elemento de celular se esta mostrando satisfactoriamente");
         }
         else {
-            System.out.println("El elemento de macbookPro se esta mostrando");
+            System.out.println("El elemento del valor macbookPro se esta mostrando correctamente");
         }
     
     //Laptops Delli7 8Gb
          if (!driver.findElement(By.xpath("//div[@class='col-lg-4 col-md-6 mb-4']")).isDisplayed()) {
-        System.out.println("El elemento de Delli7 se esta mostrando satisfactoriamente");
+        System.out.println("El elemento del Delli7 se esta mostrando satisfactoriamente");
          }
     else {
-        System.out.println("El elemento de Delli7 8Gb se esta mostrando");
+        System.out.println("El elemento del valor Delli7 8Gb se esta mostrando correctamente");
          }
     
     //Laptops Monitor
         if (!driver.findElement(By.xpath("//div[@class='col-lg-4 col-md-6 mb-4']")).isDisplayed()) {
-       System.out.println("El elemento de Monitor se esta mostrando satisfactoriamente");
+       System.out.println("El valor del Monitor se esta mostrando satisfactoriamente");
         }
    else {
-       System.out.println("El elemento de Monitor 8Gb se esta mostrando");
+       System.out.println("El elemento del valor del  Monitor 8Gb se esta mostrando correctamente");
         }
    
     // CERRAR EL DRIVER
